@@ -6,6 +6,7 @@ export class Imagen {
     alto: number; // Alto de la imagen
   };
 
+  
   constructor(url: string, descripcion: string, ancho: number, alto: number) {
     this.url = url;
     this.descripcion = descripcion;

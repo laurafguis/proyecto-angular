@@ -1,3 +1,10 @@
+  
+.color1 {color: #ffb651;}
+.color2 {color: #ffd84f;}
+.color3 {color: #0030ac;}
+.color4 {color: #006dde;}
+.color5 {color: #00b7ff;}
+
 .container {
   display: flex;
   flex-wrap: wrap; /* Permitir que los elementos se ajusten en pantallas pequeñas */
@@ -50,11 +57,13 @@
 }
 
 .thumbnail:hover {
-  transform: scale(1.1); /* Aumentar ligeramente el tamaño al pasar el mouse */
-  border-color: #0077b6; /* Cambiar el color del borde */
+  transform: scale(1.5); 
+  border-color: #0077b6; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  /* Cambiar el color del borde */
 }
 
-/* Resaltar la miniatura seleccionada */
+
 .thumbnail.selected {
   border-color: #ff006e; /* Borde distintivo para la miniatura seleccionada */
 }
