@@ -1,0 +1,19 @@
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  height: 380px; /* Tamaño fijo del visor */
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 10px solid white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.image-container img {
+  width: 100%; /* Ocupa todo el ancho del contenedor */
+  height: 100%; /* Ocupa todo el alto del contenedor */
+  object-fit: cover; /* Ajusta la imagen al contenedor sin deformarla */
+  border-radius: 10px;
+}

@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Permitir que los elementos se ajusten en pantallas pequeñas */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: flex-start; /* Alinear verticalmente al inicio */
+  gap: 20px; /* Espaciado entre los paneles */
+  max-width: 1200px;
+  margin: 20px auto; /* Centrar todo el contenedor */
+  padding: 10px;
+}
+
+.left-panel,
+.right-panel {
+  flex: 1;
+  margin: 10px;
+  min-height: 400px; /* Altura mínima para uniformidad */
+}
+
+.left-panel {
+  background-color: #005f73;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.right-panel {
+  background-color: #005f73;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+/* Miniaturas */
+.thumbnail-container {
+  display: flex;
+  justify-content: center; /* Centrar las miniaturas */
+  gap: 25px; /* Mayor espaciado entre miniaturas */
+  margin-top: 30px; /* Separación respecto a los paneles */
+  flex-wrap: wrap; /* Permitir varias filas si hay muchas imágenes */
+}
+
+/* Estilo de cada miniatura */
+.thumbnail {
+  width: 150px; /* Tamaño más grande */
+  height: 100px;
+  object-fit: cover; /* Ajustar imagen al contenedor sin deformar */
+  border: 3px solid white; /* Borde más grueso */
+  border-radius: 10px; /* Bordes redondeados */
+  cursor: pointer;
+  transition: transform 0.2s, border-color 0.3s;
+}
+
+.thumbnail:hover {
+  transform: scale(1.1); /* Aumentar ligeramente el tamaño al pasar el mouse */
+  border-color: #0077b6; /* Cambiar el color del borde */
+}
+
+/* Resaltar la miniatura seleccionada */
+.thumbnail.selected {
+  border-color: #ff006e; /* Borde distintivo para la miniatura seleccionada */
+}

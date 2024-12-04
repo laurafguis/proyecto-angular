@@ -1,0 +1,18 @@
+<div class="info-container">
+    <h2 class="info-title">Información de la imagen</h2>
+    <p *ngIf="imagen" class="info-item">
+      <span class="info-label">URL:</span> {{ imagen.url }}
+    </p>
+    <p *ngIf="imagen" class="info-item">
+      <span class="info-label">Descripción:</span> {{ imagen.descripcion }}
+    </p>
+    <p *ngIf="imagen" class="info-item">
+      <span class="info-label">Tamaño:</span> {{ imagen.tamanyo?.ancho }} x {{ imagen.tamanyo?.alto }}
+    </p>
+    <p class="info-item">
+      <span class="info-label">Mouse X:</span> {{ mouseX }}
+    </p>
+    <p class="info-item">
+      <span class="info-label">Mouse Y:</span> {{ mouseY }}
+    </p>
+  </div>

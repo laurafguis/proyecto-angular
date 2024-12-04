@@ -1,0 +1,11 @@
+<div class="image-container" (mousemove)="onMouseMove($event)">
+  <!-- Si hay imagen, se muestra -->
+  <img *ngIf="imagen; else noImage" [src]="imagen.url" [alt]="imagen.descripcion" />
+</div>
+
+<!-- Mensaje de inicio cuando no hay imagen seleccionada -->
+<ng-template #noImage>
+  <div class="placeholder">
+    <p>¡Selecciona una imagen para ver a un gato adorable! 😺</p>
+  </div>
+</ng-template>

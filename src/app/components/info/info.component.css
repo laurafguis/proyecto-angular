@@ -1,0 +1,61 @@
+.info-container {
+    font-family: Arial, sans-serif;
+    background-color: #0a9396;
+    border-radius: 10px;
+    padding: 20px;
+    color: rgb(254, 255, 255);
+    width: 100%;
+    max-width: 600px; /* Mismo ancho que el visor */
+    height: 380px; /* Mismo alto que el visor */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    border: 10px solid white; /* Marco blanco */
+  }
+  .placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ocupa todo el espacio del contenedor */
+    width: 100%;
+    background-color: #f8f9fa; /* Fondo claro */
+    border: 2px dashed #0077b6; /* Borde estilo "dashed" */
+    border-radius: 10px;
+    color: #0077b6; /* Color del texto */
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .info-container {
+    font-family: 'Poppins', sans-serif; /* Usa una fuente moderna */
+    color: #ffffff; /* Texto blanco */
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #0a9396, #00b4d8); /* Gradiente moderno */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+  }
+  
+  .info-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  .info-item {
+    font-size: 1.1rem;
+    margin: 8px 0;
+  }
+  
+  .info-label {
+    font-weight: bold;
+    color: #faec4d; /* Amarillo brillante para destacar */
+  }
+  
+  .info-container p {
+    line-height: 1.5; /* Espaciado entre líneas */
+  }
+  

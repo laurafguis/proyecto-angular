@@ -1,0 +1,51 @@
+[
+    {
+      "url": "assets/img/cat-1.jpg",
+      "descripcion": "¡Gato curioso mirando a la cámara.!",
+      "tamanyo": {
+        "ancho": 600,
+        "alto": 400
+      }
+    },
+    {
+      "url": "assets/img/cat-2.jpg",
+      "descripcion": "¡Gato de relax en el campo.!",
+      "tamanyo": {
+        "ancho": 800,
+        "alto": 500
+      }
+    },
+    {
+      "url": "assets/img/cat-3.jpg",
+      "descripcion": "¡Gato pequeño explorando un jardín.!",
+      "tamanyo": {
+        "ancho": 700,
+        "alto": 450
+      }
+    },
+    {
+      "url": "assets/img/cat-4.jpg",
+      "descripcion": "¡Gato asomandose en busca del ratón.!",
+      "tamanyo": {
+        "ancho": 640,
+        "alto": 480
+      }
+    },
+    {
+      "url": "assets/img/cat-5.jpg",
+      "descripcion": "¡Gato con mirada cautivadora.!",
+      "tamano": {
+        "ancho": 750,
+        "alto": 500
+      }
+    },
+    {
+      "url": "assets/img/cat-6.jpg",
+      "descripcion": "¡Gato intentando coger la pelota.!",
+      "tamano": {
+        "ancho": 680,
+        "alto": 450
+      }
+    }
+  ]
+  
